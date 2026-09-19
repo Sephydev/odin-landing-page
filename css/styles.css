@@ -1,3 +1,34 @@
-.test {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, system-ui;
+  min-height: 100vh;
+}
+
+header {
+  background: #1f2937;
+  padding: 8px;
+  justify-content: space-around;
+}
+
+header, header nav, header ul {
+  display: flex;
+}
+
+header, header nav {
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+  gap: 24px;
+}
+
+header a {
+  color: #f9faf8;
+  text-decoration: none;
 }
